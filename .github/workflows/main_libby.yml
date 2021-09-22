@@ -49,5 +49,5 @@ jobs:
       with:
         app-name: 'libby'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_25d72758c044494aa8b02b7e24fab84d }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_948dd99cc33e4ae69aadad02228ee387 }}
         package: '*.jar'
